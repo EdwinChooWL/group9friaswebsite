@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	border: 1px solid black;
+}
+
+#itemwrapper {
+	border: 1px solid red;
+}
+
+.viewport {
+	border: 1px solid green;
+}
+
+.menuitem {
+	border: 1px solid orange;
+}
+
+.previousbutton, .nextbutton {
+	border: 1px solid blue;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.viewport {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 93%;
+	height: 20em;
+	display: inline-block;
+}
+
+#itemwrapper {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 300%;
+	position: relative;
+}
+
+.menuitem {
+	float: left;
+	display: block;
+	text-align: center;
+	position: relative;
+	margin: 1%;
+	width: 310px;
+	height: 332px;
+}
+
+.previousbutton, .nextbutton {
+	display: inline-block;
+	width: 3%;
+	height: 20em;
+}
+
+.previousbutton {
+	float: left;
+}
+
+.nextbutton {
+	float: right;
+}
