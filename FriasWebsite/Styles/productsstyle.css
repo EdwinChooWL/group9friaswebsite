@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bodycontent {
+	border:1px solid black;
+	padding: 10px;
+}
+
+#productlist {
+	border: 1px solid black;
+	text-align: center;
+	width: 100%;
+}
+
+a .productimage {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover .productimage {
+	color: #03F;
+}
+
+.productimage {
+	border: 1px solid black;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+}

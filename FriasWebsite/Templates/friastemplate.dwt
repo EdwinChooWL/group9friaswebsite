@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="navigationbar">
+Navigation
+</div>
+
+<div id="bodywrapper">
+	
+<div id="header">
+<div id="headerlogo"><img src="../Images/logo.png" width="auto" height="250" /></div>
+<div id="headerquote">QUOTE</div>
+</div>
+
+<div id="body">
+<!-- TemplateBeginEditable name="Body Content"-->
+Content
+<!-- TemplateEndEditable -->
+</div>
+
+<div id="footer">
+<div id="footbox1">FOOTER 1</div>
+<div id="footbox2">FOOTER 2</div>
+<div id="footbox3">FOOTER 3</div>
+</div>
+    
+</body>
+</html>

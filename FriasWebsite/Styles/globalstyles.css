@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#navigationbar, #bodywrapper, #header, #body, #footer, #headerlogo, #headerquote, #events, #mainevent, #upcomingevents, #shopbar, #footbox1, #footbox2, #footbox3, ul, li, #itembarcontainer, #itembarcontainer1{
+	border: 1px solid black;
+}
+
+/*********************************************************/
+#navigationbar {
+	height: 30px;
+}
+
+#bodywrapper {
+	margin: 0 auto;
+	width: 70%;
+	min-width: 40em;
+	max-width: ;
+}
+
+#body {
+}
+
+#footer {
+	padding: 30px 50px;
+}
+/*********************************************************/
+/*Header CSS*/
+#headerlogo {
+	margin: 50px;
+	width: 17em;
+	height: 15em;
+}
+
+#headerquote {
+	margin: 50px;
+	width: 25em;
+	height: 2em;
+}
+/*********************************************************/
+/*Body CSS*/
+#events {
+	margin: 30px 50px;
+	overflow: auto;
+}
+#mainevent, #upcomingevents {
+	display: inline-block;
+	width: 45%;
+	min-height: 10em;
+}
+
+#upcomingevents {
+	float: right;
+}
+/*********************************************************/
+/*Shopping Bar CSS*/
+#shopbar {
+	height: 20em;
+}
+
+#itembarcontainer {
+	width: auto;
+	height: 14em;
+	margin: 30px 50px;
+}
+
+#itembarcontainer1 {
+	width: inherit;
+	height: inherit;
+}
+
+ul {
+	border: 1px solid red;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 12em;
+}
+
+li {
+	display: inline-block;
+	height: inherit;
+	width: 20%;
+	margin: 0 2%;
+}
+/*********************************************************/
+/*Footer CSS*/
+#footbox1, #footbox2, #footbox3 {
+	display: inline-block;
+	height: 10em;
+	width: 10em;
+}
+
+#footbox1 {
+	margin-right: 20px;
+}
+
+#footbox3 {
+	float: right;
+}
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
