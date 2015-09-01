@@ -1,0 +1,13 @@
+GOOGLE FONTS
+
+- Product name (anton)
+<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+font-family: 'Anton', sans-serif;
+
+- nav bar(products) (handlee)
+<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+font-family: 'Handlee', cursive;
+
+- about us , product desc, other events (raleway)
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+font-family: 'Raleway', sans-serif;
