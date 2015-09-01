@@ -1,113 +1,84 @@
 @charset "utf-8";
 /* CSS Document */
-
+/*Background and width setting*/
 body {
+	background-image: url(../Images/BG.jpg);
+	background-attachment: fixed;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-#navigationbar, #bodywrapper, #header, #body, #footer, #headerlogo, #headerquote, #events, #mainevent, #upcomingevents, #shopbar, #footbox1, #footbox2, #footbox3, ul, li, #itembarcontainer, #itembarcontainer1{
-	border: 1px solid black;
-}
-
 /*********************************************************/
-#navigationbar {
+/*Styles for the main containers*/
+#navigationbar { /*Wraps navigation bar at the top*/
 	height: 30px;
+	background-color: #FFD8B0;
 }
 
-#bodywrapper {
+#flownavigation { /*Wraps navigation bar below banner*/
+	padding: 2px 0 3px 10px;
+	height: 30px;
+	background-color: #D5C8B3;
+	color: #FFF;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+}
+
+#flownavigation a {
+	text-decoration: none;
+	color: #FFF;	
+}
+
+#bodywrapper { /*Wraps main body from banner to footer to give size*/
 	margin: 0 auto;
-	width: 70%;
-	min-width: 40em;
+	width: 60%;
+	min-width: 50em;
 	max-width: ;
 }
 
-#body {
+#body { /*Wraps main content in body*/
+	background-color: #FFF;
+	min-height: 70em;
+	margin: 0;
 }
 
-#footer {
-	padding: 30px 50px;
+#footer { /*Wraps footer*/
+	padding: 10px 50px;
+	height: 8em;
+	background-color: #E0D1ED;
 }
 /*********************************************************/
 /*Header CSS*/
-#headerlogo {
-	margin: 50px;
-	width: 17em;
-	height: 15em;
-}
-
-#headerquote {
-	margin: 50px;
-	width: 25em;
-	height: 2em;
-}
-/*********************************************************/
-/*Body CSS*/
-#events {
-	margin: 30px 50px;
+#header {
 	overflow: auto;
-}
-#mainevent, #upcomingevents {
-	display: inline-block;
-	width: 45%;
-	min-height: 10em;
-}
-
-#upcomingevents {
-	float: right;
-}
-/*********************************************************/
-/*Shopping Bar CSS*/
-#shopbar {
-	height: 20em;
-}
-
-#itembarcontainer {
-	width: auto;
-	height: 14em;
-	margin: 30px 50px;
-}
-
-#itembarcontainer1 {
-	width: inherit;
-	height: inherit;
-}
-
-ul {
-	border: 1px solid red;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	height: 12em;
-}
-
-li {
-	display: inline-block;
-	height: inherit;
-	width: 20%;
-	margin: 0 2%;
+	background-image: url(../Images/bannerbg.gif);
+	background-attachment: local;
 }
 /*********************************************************/
 /*Footer CSS*/
 #footbox1, #footbox2, #footbox3 {
 	display: inline-block;
-	height: 10em;
-	width: 10em;
+	color: #FFF;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive;
+	padding: 10px 10px 0 10px;
+	text-align: center;
 }
 
 #footbox1 {
 	margin-right: 20px;
+	float: left;
 }
 
 #footbox3 {
 	float: right;
 }
-/*********************************************************/
-/*********************************************************/
-/*********************************************************/
-/*********************************************************/
-/*********************************************************/
-/*********************************************************/
-/*********************************************************/
+
+.socialicon {
+	margin-top: 10px;
+	border-radius: 5px;
+	height: auto;
+	width: 35px;
+}
 /*********************************************************/

@@ -8,6 +8,7 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
+<link href="../Styles/globalcontentstyles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -33,6 +34,7 @@ Content
 <div id="footbox2">FOOTER 2</div>
 <div id="footbox3">FOOTER 3</div>
 </div>
-    
+ 
+</div> 
 </body>
 </html>
