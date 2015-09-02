@@ -17,7 +17,7 @@
 	border: 1px solid orange;
 }
 
-.previousbutton, .nextbutton {
+#previousbutton, #nextbutton {
 	border: 1px solid blue;
 }
 
@@ -52,16 +52,17 @@
 	height: 332px;
 }
 
-.previousbutton, .nextbutton {
+#previousbutton, #nextbutton {
 	display: inline-block;
 	width: 3%;
 	height: 20em;
+	cursor: pointer;
 }
 
-.previousbutton {
+#previousbutton {
 	float: left;
 }
 
-.nextbutton {
+#nextbutton {
 	float: right;
-}
+}	

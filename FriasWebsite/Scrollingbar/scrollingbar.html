@@ -11,7 +11,7 @@
 
 <div class="container"> <!-- Container for whole menu bar -->
 
-<span class="previousbutton" onclick="scrollRight()">1</span> <!-- Insert button image here -->
+<span id="previousbutton" onclick="scrollRight()">1</span> <!-- Insert button image here -->
 
 <div class="viewport"> <!-- Container for shop viewing -->
 
@@ -28,9 +28,13 @@
 
 </div>
 
-<span class="nextbutton" onclick="scrollOpposite()">2</span> <!-- Insert button image here -->
+<span id="nextbutton" onclick="scrollOpposite()">2</span> <!-- Insert button image here -->
 </div>
-</div>
+
+
+<script>
+	buttonCheck();
+</script>
 
 </body>
 </html>

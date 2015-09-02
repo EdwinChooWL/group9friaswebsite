@@ -6,6 +6,8 @@
 <title>Untitled Document</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
+<link href="Scrollingbar/scrollingbar.css" rel="stylesheet" type="text/css" />
+<script src="Scrollingbar/scrollingbar.js" type="text/javascript"></script>
 <!-- InstanceEndEditable -->
 <link href="Styles/globalstyles.css" rel="stylesheet" type="text/css" />
 <link href="Styles/globalcontentstyles.css" rel="stylesheet" type="text/css" />
@@ -32,13 +34,32 @@ Navigation
 
 <div id="shopbar">
 POPULAR
-<div id="itembarcontainer">
-<div id="itembarcontainer1">
-<ul>
+<div class="container"> <!-- Container for whole menu bar -->
+
+<span id="previousbutton" onclick="scrollRight()">1</span> <!-- Insert button image here -->
+
+<div class="viewport"> <!-- Container for shop viewing -->
+
+<ul id="itemwrapper"> <!-- Unordered shop list container -->
+
+<!-- Insert shop items below -->
+	<li class="menuitem">ITEM 1</li> <!-- Put first item here -->
+    <li class="menuitem">ITEM 2</li> <!-- Put second item here -->
+   	<li class="menuitem">ITEM 3</li> <!-- Put third item here -->
+    <li class="menuitem">ITEM 4</li> <!-- Put fourth item here -->
+<!-- End of shop items -->
+
 </ul>
+
+</div>
+
+<span id="nextbutton" onclick="scrollOpposite()">2</span> <!-- Insert button image here -->
 </div>
 </div>
-</div>
+
+<script>
+	buttonCheck();
+</script>
 <!-- InstanceEndEditable -->
 </div>
 

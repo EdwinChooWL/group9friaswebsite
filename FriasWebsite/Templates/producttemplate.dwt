@@ -19,7 +19,7 @@ Navigation
 <div id="bodywrapper">
 	
 <div id="header">
-<a href="#"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="../Images/Text/products.png" width="332" height="94" alt="Products"/>
+<a href="#"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="../Images/Text/products.png" width="auto" height="80" alt="Products"/>
 </div>
 
 <div id="flownavigation"><a href="#" title="Home">Home</a> > <a href="#" title="Products">Products</a> > --- > --- > ---
