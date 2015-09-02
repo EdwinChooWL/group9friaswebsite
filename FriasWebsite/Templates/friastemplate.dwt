@@ -30,9 +30,17 @@ Content
 </div>
 
 <div id="footer">
-<div id="footbox1">FOOTER 1</div>
-<div id="footbox2">FOOTER 2</div>
-<div id="footbox3">FOOTER 3</div>
+
+<div id="footbox1">Contact Us</div>
+
+<div id="footbox2"></div>
+
+<div id="footbox3">Social<br/>
+<a href="#"><img class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
+<a href="#"><img class="socialicon" src="../Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Twitter"/></a>
+<a href="#"><img class="socialicon" src="../Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Instagram"/></a>
+</div>
+
 </div>
  
 </div> 

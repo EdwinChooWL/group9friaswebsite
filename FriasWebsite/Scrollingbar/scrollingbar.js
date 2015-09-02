@@ -7,8 +7,10 @@ function getCssProperty(elmId, property){
 
 var wrapperposition = 0
 var wrapperoriginalposition = 0
+
 var distanceMove = 500
-var numberClicks = 2
+var numberClicks = 5
+var moveSpeed = 10
 
 buttonCheck();
 
@@ -25,7 +27,7 @@ function buttonCheck() {
 
 function scrollOpposite() {
 	if(wrapperposition !== -numberClicks*distanceMove) {
-		wrapperposition -= 1;
+		wrapperposition -= moveSpeed;
 		document.getElementById("itemwrapper").style.left =wrapperposition+'px';
 		
 		if(wrapperoriginalposition - wrapperposition == distanceMove) {
@@ -39,7 +41,7 @@ function scrollOpposite() {
 
 function scrollRight() {
 	if(wrapperposition !== 0) {
-		wrapperposition += 1;
+		wrapperposition += moveSpeed;
 		document.getElementById("itemwrapper").style.left =wrapperposition+'px';
 			if(wrapperoriginalposition - wrapperposition == -distanceMove) {
 			wrapperoriginalposition = wrapperposition
