@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#carouselviewport {
+	padding: 0;
+	height: 287px;
+}
+
+#carouselwrapper {
+	padding: 0;
+	margin: 0;
+}
+
+.carouselimg {
+	margin: 0;
+	list-style-type: none;
+	position: absolute;
+}
+
+#banner1, #banner2, #banner3, #banner4, #banner5 {
+	z-index: 0;
+	opacity: 1;
+}
+
+#banner1 {
+	z-index: 2;
+}

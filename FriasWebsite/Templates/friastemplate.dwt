@@ -19,9 +19,9 @@ Navigation
 <div id="bodywrapper">
 	
 <div id="header">
-<div id="headerlogo"><img src="../Images/logo.png" width="auto" height="250" /></div>
-<div id="headerquote">QUOTE</div>
+<a href="#"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="../Images/Text/products.png" width="auto" height="80" alt="Products"/>
 </div>
+
 
 <div id="body">
 <!-- TemplateBeginEditable name="Body Content"-->
