@@ -18,10 +18,34 @@
 }
 
 #banner1, #banner2, #banner3, #banner4, #banner5 {
-	z-index: 0;
+	z-index: -1;
 	opacity: 1;
 }
 
 #banner1 {
+	z-index: 1;
+}
+
+.carouselselector {
+	top: 250px;
+	left: 150px;
+	position: relative;
 	z-index: 2;
+	cursor: pointer;
+}
+
+#previousarrow, #nextarrow {
+	z-index: 2;
+	position: absolute;
+	cursor: pointer;
+}
+
+#previousarrow {
+	top: 110px;
+	left: 10px;
+}
+
+#nextarrow {
+	top: 110px;
+	left: 208px;
 }
