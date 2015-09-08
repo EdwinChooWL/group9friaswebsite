@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#navigationbar{
+	border: 1px solid black;
+}
+
+/*********************************************/
+#navigationbar {
+	height: 30px;
+}
+
+#bodywrapper {
+	border: 1px solid yellow;
+	margin: 0 auto;
+	width: 80%;
+	min-width: 50em;
+}
+
+#banner {
+	height: 500px;
+}
+
+#footer {
+	border: 1px solid black;
+	padding: 10px 50px;
+	height: 8em;
+	background-color: #E0D1ED;
+}
+/*********************************************/
+/*Banner css*/
+ul#carouselwrapper {
+	border: 1px solid red;
+	height: 500px;
+	padding: 0;
+	margin: 0;
+}
+
+li.carouselimg {
+	border: 1px solid blue;
+	height: inherit;
+	list-style-type: none;
+	position: relative;
+	z-index: -1;
+	opacity: 1;
+}
+
+.carouselimg img {
+	width: 100%;
+	height: 500px;
+}
+
+#banner1 {
+	z-index: 1;
+}
+
+#banner2 {
+	top: -500px;
+}
+
+#banner3 {
+	top: -1000px;
+}
+
+.carouselselector1, .carouselselector2, .carouselselector3 {
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.carouselselector1 {
+	right: 11vw;
+	top: 510px;
+}
+
+.carouselselector2 {
+	right: 13vw;
+	top: 510px;
+}
+
+.carouselselector3 {
+	right: 15vw;
+	top: 510px;
+}
+
+#previousarrow, #nextarrow {
+	z-index: 2;
+	position: absolute;
+	cursor: pointer;
+}
+
+#previousarrow {
+	left: 2vw;
+	top: 250px;
+}
+
+#nextarrow {
+	right: 2vw;
+	top: 250px;
+}
+/*********************************************/
+/*Footer CSS*/
+#footbox1, #footbox2, #footbox3 {
+	display: inline-block;
+	color: #FFF;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive;
+	padding: 10px 10px 0 10px;
+	text-align: center;
+}
+
+#footbox1 {
+	margin-right: 20px;
+	float: left;
+}
+
+#footbox3 {
+	float: right;
+}
+
+.socialicon {
+	margin-top: 10px;
+	border-radius: 7px;
+	height: auto;
+	width: 35px;
+}
+/*********************************************/
