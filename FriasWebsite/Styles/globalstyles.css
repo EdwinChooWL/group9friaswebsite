@@ -9,18 +9,48 @@ body {
 	padding: 0;
 }
 
-/*********************************************************/
-/*Styles for the main containers*/
-#navigationbar { /*Wraps navigation bar at the top*/
-	height: 30px;
-	top: 0;
-	background-color: #FFD8B0;
-	position: fixed;
-	width: 100%;
-	z-index: 1000;
+/*********************************************/
+/*Size of body*/
+#bodywrapper {
+	margin: 0 auto;
+	width: 80%;
+	min-width: 50em;
 }
 
-#flownavigation { /*Wraps navigation bar below banner*/
+/*********************************************/
+/*Navigation bar css*/
+table#navigationbar {
+	background-color: #FFEEA7;
+	color: #FF9D21;
+	height: 35px;
+	width: 100%;
+	min-width: 50em;
+}
+
+td.navigationtab {
+	font-family: Arial;
+	font-size: 15px;
+	width: 10%;
+	text-align: center;
+}
+
+td.navigationtab a, td.navigationtab a:visited {
+	padding: 8px;
+	margin: -2px;
+	display: block;
+	text-decoration: none;
+	color: #FF9D21;
+}
+
+td.navigationtab a:hover {
+	background-color: #FF9D21;
+	color: #FFEEA7;
+	font-weight: bold;
+}
+
+/*********************************************/
+/*Navigation bar below banner CSS*/
+#flownavigation {
 	padding: 2px 0 3px 10px;
 	height: 30px;
 	background-color: #D5C8B3;
@@ -34,40 +64,71 @@ body {
 	color: #FFF;	
 }
 
-#bodywrapper { /*Wraps main body from banner to footer to give size*/
-	margin: 30px auto 0 auto;
-	width: 60%;
-	min-width: 50em;
-	max-width: ;
+/*********************************************/
+/*Header CSS*/
+#header {
+	background-image: url(../Images/banner.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 0 20px;
+	height: 28vw;
+	min-height: 18em;
 }
 
-#body { /*Wraps main content in body*/
+#header div, #header img {
+	display: block;
+	width: 20vw;
+	min-width: 200px;
+	height: auto;
+}
+
+/*********************************************/
+div#body{
+	text-align: center;
+	padding: 10px;
 	background-color: #FFF;
 	min-height: 70em;
 	margin: 0;
 }
 
-#footer { /*Wraps footer*/
+#body h1 {
+	font-family: 'Anton', sans-serif;
+}
+
+#body p{
+	font-family: 'Raleway', sans-serif;
+	color: #010072;
+}
+
+/*********************************************/
+/*Footer CSS*/
+#footer {
 	padding: 10px 50px;
-	height: 8em;
+	overflow: hidden;
 	background-color: #E0D1ED;
 }
-/*********************************************************/
-/*Header CSS*/
-#header {
-	overflow: auto;
-	background-image: url(../Images/bannerbg.gif);
-	background-attachment: local;
-}
-/*********************************************************/
-/*Footer CSS*/
-#footbox1, #footbox2, #footbox3 {
+
+#footer div.footbox {
 	display: inline-block;
 	color: #FFF;
-	font-size: 20px;
 	font-family: "Comic Sans MS", cursive;
 	padding: 10px 10px 0 10px;
+}
+
+div.footbox hr {
+	border: none;
+	height: 1px;
+	margin: 0;
+	background-color: #FFF;
+}
+
+div.footbox h1 {
 	text-align: center;
+	font-size: 18px;
+}
+
+div.footbox p {
+	font-size: 14px;
 }
 
 #footbox1 {
@@ -85,4 +146,4 @@ body {
 	height: auto;
 	width: 35px;
 }
-/*********************************************************/
+/*********************************************/

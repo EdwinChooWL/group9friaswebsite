@@ -1,52 +1,60 @@
 @charset "utf-8";
 /* CSS Document */
 
-@charset "utf-8";
-/* CSS Document */
-
 body {
+	background-image: url(../Images/BG.jpg);
+	background-attachment: fixed;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-#navigationbar{
-	border: 1px solid black;
-}
-
 /*********************************************/
-#navigationbar {
-	height: 30px;
-}
-
+/*Size of body*/
 #bodywrapper {
-	border: 1px solid yellow;
 	margin: 0 auto;
 	width: 80%;
 	min-width: 50em;
 }
+/*********************************************/
+/*Navigation bar css*/
+table#navigationbar {
+	background-color: #FFEEA7;
+	color: #FF9D21;
+	height: 35px;
+	width: 100%;
+}
 
+td.navigationtab {
+	width: 10%;
+	text-align: center;
+}
+
+td.navigationtab a, td.navigationtab a:visited {
+	display: block;
+	height: 100%;
+	padding-top: 7px;
+	text-decoration: none;
+	color: #FF9D21;
+}
+
+td.navigationtab a:hover {
+	background-color: #FF9D21;
+	color: #FFEEA7;
+}
+/*********************************************/
+/*Banner css*/
 #banner {
 	height: 500px;
 }
 
-#footer {
-	border: 1px solid black;
-	padding: 10px 50px;
-	height: 8em;
-	background-color: #E0D1ED;
-}
-/*********************************************/
-/*Banner css*/
 ul#carouselwrapper {
-	border: 1px solid red;
 	height: 500px;
 	padding: 0;
 	margin: 0;
 }
 
 li.carouselimg {
-	border: 1px solid blue;
 	height: inherit;
 	list-style-type: none;
 	position: relative;
@@ -54,7 +62,7 @@ li.carouselimg {
 	opacity: 1;
 }
 
-.carouselimg img {
+li.carouselimg img {
 	width: 100%;
 	height: 500px;
 }
@@ -71,30 +79,16 @@ li.carouselimg {
 	top: -1000px;
 }
 
-.carouselselector1, .carouselselector2, .carouselselector3 {
-	position: absolute;
+.carouselselector {
+	position: relative;
 	z-index: 2;
 	cursor: pointer;
-}
-
-.carouselselector1 {
-	right: 11vw;
-	top: 510px;
-}
-
-.carouselselector2 {
-	right: 13vw;
-	top: 510px;
-}
-
-.carouselselector3 {
-	right: 15vw;
-	top: 510px;
+	left: 74vw;
+	bottom: 20px;
 }
 
 #previousarrow, #nextarrow {
 	z-index: 2;
-	position: absolute;
 	cursor: pointer;
 }
 
@@ -109,7 +103,13 @@ li.carouselimg {
 }
 /*********************************************/
 /*Footer CSS*/
-#footbox1, #footbox2, #footbox3 {
+#footer {
+	padding: 10px 50px;
+	height: 8em;
+	background-color: #E0D1ED;
+}
+
+#footer div.footbox {
 	display: inline-block;
 	color: #FFF;
 	font-size: 20px;

@@ -1,34 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
-#navigationbar, #bodywrapper, #header, #body, #footer, #headerlogo, #headerquote, #events, #mainevent, #upcomingevents, #shopbar, #footbox1, #footbox2, #footbox3, ul, li, #itembarcontainer, #itembarcontainer1{
-	border: 1px solid black;
-}
-/*********************************************************/
+/*********************************************/
 /*Header CSS*/
-#headerlogo {
-	margin: 50px;
-	width: 17em;
-	height: 15em;
-}
 
-#headerquote {
-	margin: 50px;
-	width: 25em;
-	height: 2em;
-}
-/*********************************************************/
+/*********************************************/
 /*Body CSS*/
-#events {
-	margin: 30px 50px;
-	overflow: auto;
-}
-#mainevent, #upcomingevents {
-	display: inline-block;
-	width: 45%;
-	min-height: 10em;
+div#body{
+	text-align: center;
+	padding: 10px;
 }
 
-#upcomingevents {
-	float: right;
+#body h1 {
+	font-family: 'Anton', sans-serif;
 }
-/*********************************************************/
+
+#body p{
+	font-family: 'Raleway', sans-serif;
+	color: #010072;
+}
+/*********************************************/

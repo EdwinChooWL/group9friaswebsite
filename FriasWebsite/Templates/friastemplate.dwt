@@ -8,34 +8,64 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
-<link href="../Styles/globalcontentstyles.css" rel="stylesheet" type="text/css" />
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<div id="navigationbar">
-Navigation
-</div>
+<table id="navigationbar" cellspacing="0">
+	<tr>
+    	<td class="navigationtab" style="min-width: 4em"><a href="#">HOME</a></td>
+        <td class="navigationtab" style="min-width: 6em"><a href="#">PRODUCTS</a></td>
+        <td class="navigationtab" style="min-width: 6em"><a href="#">ABOUT US</a></td>
+        <td class="navigationtab" style="min-width: 3em"><a href="#">CAFE</a></td>
+        <td class="navigationtab" style="min-width: 5em"><a href="#">EVENTS</a></td>
+        <td class="navigationfiller"></td>
+	</tr>
+</table>
+
 
 <div id="bodywrapper">
 	
 <div id="header">
-<a href="#"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="../Images/Text/products.png" width="auto" height="80" alt="Products"/>
+<div><a href="#"><img src="../Images/FriasH250px.png" width="200" height="auto" alt="Frias Logo" title="Frias Clothing"/ class="friaslogo"></a></div>
+<div><img src="../Images/Text/aboutus.png" width="308" height="71" alt="" class="titleimage"/></div>
 </div>
 
+<div id="flownavigation"><a href="#" title="#">Home</a> > <a href="#" title="#">--- </a>
+</div>
 
 <div id="body">
 <!-- TemplateBeginEditable name="Body Content"-->
-Content
+<h1 class="bodyblueh1">HEADING 1 TEST</h1>
+<p>PARAGRAPH<br/> FRIAS is a Kids Wear fashion outlet that aims to provide the highest quality, and most comfortable clothes for kids of all ages.</p>
+<h1 style="color: #388DFF">HEADING 1 TEST AGAIN</h1>
+<p>PARAGRAPH AGAIN</p>
 <!-- TemplateEndEditable -->
 </div>
 
 <div id="footer">
 
-<div id="footbox1">Contact Us</div>
+<div class="footbox" id="footbox1">
+<h1>Contact Us</h1>
+<hr />
+<p>Address: xxxxxxxxxxxxxxxxxxx</p>
+<p>E-mail: xxxxxxxxxxxxx@xxx.com</p>
+<p>Phone no.: xxx-xxx-xxxxx</p>
+<p>Fax no.: xxx-xxx-xxxxx</p>
+</div>
 
-<div id="footbox2"></div>
+<div class="footbox" id="footbox2">
+<h1>Filler header</h1>
+<hr />
+<p>Filler paragraph</p>
+<p>Filler paragraph 2</p>
+</div>
 
-<div id="footbox3">Social<br/>
+<div class="footbox" id="footbox3">
+<h1>Social Media</h1>
 <a href="#"><img class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
 <a href="#"><img class="socialicon" src="../Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Twitter"/></a>
 <a href="#"><img class="socialicon" src="../Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Instagram"/></a>
