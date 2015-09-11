@@ -17,9 +17,9 @@
 <body>
 <table id="navigationbar" cellspacing="0">
 	<tr>
-    	<td class="navigationtab" style="min-width: 4em"><a href="#">HOME</a></td>
-        <td class="navigationtab" style="min-width: 6em"><a href="#">PRODUCTS</a></td>
-        <td class="navigationtab" style="min-width: 6em"><a href="#">ABOUT US</a></td>
+    	<td class="navigationtab" style="min-width: 4em"><a href="index2.html">HOME</a></td>
+        <td class="navigationtab" style="min-width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
+        <td class="navigationtab" style="min-width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
         <td class="navigationtab" style="min-width: 3em"><a href="#">CAFE</a></td>
         <td class="navigationtab" style="min-width: 5em"><a href="#">EVENTS</a></td>
         <td class="navigationfiller"></td>
@@ -33,10 +33,10 @@
 <div><a href="#"><img src="../Images/FriasH250px.png" width="200" height="auto" alt="Frias Logo" title="Frias Clothing"/ class="friaslogo"></a></div>
 <div><img src="../Images/Text/aboutus.png" width="308" height="71" alt="" class="titleimage"/></div>
 </div>
-
+<!-- TemplateBeginEditable name="flowNavigation" -->
 <div id="flownavigation"><a href="#" title="#">Home</a> > <a href="#" title="#">--- </a>
 </div>
-
+<!-- TemplateEndEditable -->
 <div id="body">
 <!-- TemplateBeginEditable name="Body Content"-->
 <h1 class="bodyblueh1">HEADING 1 TEST</h1>
@@ -51,9 +51,9 @@
 <div class="footbox" id="footbox1">
 <h1>Contact Us</h1>
 <hr />
-<p>Address: xxxxxxxxxxxxxxxxxxx</p>
-<p>E-mail: xxxxxxxxxxxxx@xxx.com</p>
-<p>Phone no.: xxx-xxx-xxxxx</p>
+<p>Address: 100, Orchard Crescent, 100000 Singapore</p>
+<p>E-mail: Frias@gmail.com</p>
+<p>Phone no.: +65-4444-6677</p>
 <p>Fax no.: xxx-xxx-xxxxx</p>
 </div>
 
@@ -66,9 +66,9 @@
 
 <div class="footbox" id="footbox3">
 <h1>Social Media</h1>
-<a href="#"><img class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
-<a href="#"><img class="socialicon" src="../Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Twitter"/></a>
-<a href="#"><img class="socialicon" src="../Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Instagram"/></a>
+<a href="http://www.facebook.com"><img class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
+<a href="http://www.instagram.com"><img class="socialicon" src="../Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Instagram"/></a>
+<a href="http://www.twitter.com"><img class="socialicon" src="../Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Twitter"/></a>
 </div>
 
 </div>

@@ -12,9 +12,17 @@
 </head>
 
 <body>
-<div id="navigationbar">
-Navigation
-</div>
+<table id="navigationbar" cellspacing="0">
+	<tr>
+    	<td class="navigationtab" style="min-width: 4em"><a href="index2.html">HOME</a></td>
+        <td class="navigationtab" style="min-width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
+        <td class="navigationtab" style="min-width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
+        <td class="navigationtab" style="min-width: 3em"><a href="#">CAFE</a></td>
+        <td class="navigationtab" style="min-width: 5em"><a href="#">EVENTS</a></td>
+        <td class="navigationfiller"></td>
+	</tr>
+</table>
+
 
 <div id="bodywrapper">
 	
@@ -22,8 +30,10 @@ Navigation
 <a href="#"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="../Images/Text/products.png" width="auto" height="80" alt="Products"/>
 </div>
 
-<div id="flownavigation"><a href="#" title="Home">Home</a> > <a href="#" title="Products">Products</a> > --- > --- > ---
+<!-- TemplateBeginEditable name="flowNavigation" -->
+<div id="flownavigation"><a href="#" title="#">Home</a> > <a href="#" title="#">--- </a>
 </div>
+<!-- TemplateEndEditable -->
 
 <div id="body">
 
@@ -64,18 +74,31 @@ Navigation
 
 <div id="footer">
 
-<div id="footbox1">Contact Us</div>
-
-<div id="footbox2"></div>
-
-<div id="footbox3">Social<br/>
-<a href="#"><img class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
-<a href="#"><img class="socialicon" src="../Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Twitter"/></a>
-<a href="#"><img class="socialicon" src="../Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Instagram"/></a>
-</div>
+<div class="footbox" id="footbox1">
+<h1>Contact Us</h1>
+<hr />
+<p>Address: 100, Orchard Crescent, 100000 Singapore</p>
+<p>E-mail: Frias@gmail.com</p>
+<p>Phone no.: +65-4444-6677</p>
+<p>Fax no.: xxx-xxx-xxxxx</p>
 </div>
 
+<div class="footbox" id="footbox2">
+<h1>Filler header</h1>
+<hr />
+<p>Filler paragraph</p>
+<p>Filler paragraph 2</p>
 </div>
+
+<div class="footbox" id="footbox3">
+<h1>Social Media</h1>
+<a href="http://www.facebook.com"><img class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
+<a href="http://www.instagram.com"><img class="socialicon" src="../Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Instagram"/></a>
+<a href="http://www.twitter.com"><img class="socialicon" src="../Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Twitter"/></a>
+</div>
+
+</div>
+ 
+</div> 
 </body>
 </html>
-
