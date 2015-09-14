@@ -54,6 +54,15 @@
 <div id="productdescription">enter description for product here<br/>enter description for product here<br/>enter description for product here<br/>enter description for product here<br/>enter description for product here<br/></div>
 <!-- TemplateEndEditable -->
 <a href="#"><img class="cartimg" src="../Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Add to cart"/></a>
+
+<!-- TemplateBeginEditable name="Clothes Colors" -->
+<!-- Change available colors for product here -->
+<div id="othercolorsbox">AVAILABLE COLORS<br />
+<img class="clothescolor" src="../Images/Clothes Colors/Color8.png" width="40" height="40" alt="" onclick="changeColor('1')"/>
+<img class="clothescolor" src="../Images/Clothes Colors/Color4.png" width="40" height="40" alt="" onclick="changeColor('2')"/>
+<img class="clothescolor" src="../Images/Clothes Colors/Color10.png" width="40" height="40" alt="" onclick="changeColor('3')"/>
+</div>
+<!-- TemplateEndEditable -->
 </div>
 
 </div>
