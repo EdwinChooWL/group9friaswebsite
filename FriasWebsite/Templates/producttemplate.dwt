@@ -14,7 +14,7 @@
 <body>
 <table id="navigationbar" cellspacing="0">
 	<tr>
-    	<td class="navigationtab" style="min-width: 4em"><a href="index2.html">HOME</a></td>
+    	<td class="navigationtab" style="min-width: 4em"><a href="index.html">HOME</a></td>
         <td class="navigationtab" style="min-width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
         <td class="navigationtab" style="min-width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
         <td class="navigationtab" style="min-width: 3em"><a href="#">CAFE</a></td>
