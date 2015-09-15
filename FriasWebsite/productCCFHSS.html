@@ -27,7 +27,8 @@
 <div id="bodywrapper">
 	
 <div id="header">
-<a href="#"><img src="Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="Images/Text/products.png" width="auto" height="80" alt="Products"/>
+<div><a href="index.html"><img src="Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a></div>
+<div><img src="Images/Text/products.png" width="auto" height="80" alt="Products"/></div>
 </div>
 
 <!-- InstanceBeginEditable name="flowNavigation" -->
@@ -44,7 +45,7 @@
 <div id="mainproductwrapper">
 <!-- InstanceBeginEditable name="Product Image" -->
 <!-- Insert the product image here with the id "mainproduct" -->
-<div id="mainproduct"><img src="Images/Beach Products/3.jpg" width="350" height="auto" alt="Jeans Jacket"/></div>
+<div id="mainproduct"><img name="mainproductimage" src="Images/Beach Products/3color1.jpg" width="350" height="auto" alt="Jeans Jacket"/></div>
 <!-- InstanceEndEditable -->
 
 <div id="productdetails">
@@ -78,10 +79,15 @@ Cost: SGD 45.90
 <!-- InstanceBeginEditable name="Clothes Colors" -->
 <!-- Change available colors for product here -->
 <div id="othercolorsbox">AVAILABLE COLORS<br />
-<img class="clothescolor" src="Images/Clothes%20Colors/Color8.png" width="40" height="40" alt="" onclick="changeColor('1')"/>
-<img class="clothescolor" src="Images/Clothes%20Colors/Color4.png" width="40" height="40" alt="" onclick="changeColor('2')"/>
-<img class="clothescolor" src="Images/Clothes%20Colors/Color10.png" width="40" height="40" alt="" onclick="changeColor('3')"/>
+<img class="clothescolor" src="../Images/Clothes Colors/Color8.png" width="40" height="40" alt="" onclick="changeColor('1')"/>
+<img class="clothescolor" src="../Images/Clothes Colors/Color4.png" width="40" height="40" alt="" onclick="changeColor('2')"/>
+<img class="clothescolor" src="../Images/Clothes Colors/Color10.png" width="40" height="40" alt="" onclick="changeColor('3')"/>
 </div>
+<script>
+function changeColor(color) {
+	document.mainproductimage.src ="Images/Beach Products/3color"+color+".jpg"
+}
+</script>
 <!-- InstanceEndEditable -->
 </div>
 
@@ -92,12 +98,12 @@ Cost: SGD 45.90
 
 <!-- InstanceBeginEditable name="Related Products" -->
 <ul>
-	<a href="productRSSDS"><li class="relatedimg">
-    <img src="Images/Beach Products/8.jpg" width="250" height="283" alt="Rose Sunglasses on Striped Design Shirt" title="Rose Sunglasses on Striped Design Shirt"/></li></a>
-	<a href="productCHFSS"><li class="relatedimg">
+	<a href="productRSSDS.html"><li class="relatedimg">
+    <img src="Images/Beach Products/8color1.jpg" width="250" height="283" alt="Rose Sunglasses on Striped Design Shirt" title="Rose Sunglasses on Striped Design Shirt"/></li></a>
+	<a href="productCHFSS.html"><li class="relatedimg">
     <img src="Images/Beach Products/4.jpg" width="250" height="283" alt="Cutie-berry and Floral Half Sleeve Shirt" title="Cutie-berry and Floral Half Sleeve Shirt"/></li></a>
-	<a href="productTDIKD"><li class="relatedimg">
-    <img src="Images/Beach Products/5.jpg" width="250" height="283" alt="Treat Dreams of Innocent Kids Dress" title="Treat Dreams of Innocent Kids Dress"/></li></a>
+	<a href="productTDIKD.html"><li class="relatedimg">
+    <img src="Images/Beach Products/5color1.jpg" width="250" height="283" alt="Treat Dreams of Innocent Kids Dress" title="Treat Dreams of Innocent Kids Dress"/></li></a>
 </ul>
 <!-- InstanceEndEditable -->
 
@@ -125,9 +131,9 @@ Cost: SGD 45.90
 
 <div class="footbox" id="footbox3">
 <h1>Social Media</h1>
-<a href="http://www.facebook.com"><img class="socialicon" src="Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
-<a href="http://www.instagram.com"><img class="socialicon" src="Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Instagram"/></a>
-<a href="http://www.twitter.com"><img class="socialicon" src="Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Twitter"/></a>
+<a href="http://www.facebook.com"><img class="socialicon" src="Images/Social%20Media%20Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
+<a href="http://www.instagram.com"><img class="socialicon" src="Images/Social%20Media%20Icons/instagram.gif" alt="Instagram Icon" title="Instagram"/></a>
+<a href="http://www.twitter.com"><img class="socialicon" src="Images/Social%20Media%20Icons/twitter.gif" alt="Twitter Icon" title="Twitter"/></a>
 </div>
 
 </div>

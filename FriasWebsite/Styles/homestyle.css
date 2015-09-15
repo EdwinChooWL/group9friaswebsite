@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 body {
 	background-image: url(../Images/BG.jpg);
 	background-attachment: fixed;
@@ -13,9 +12,11 @@ body {
 /*Size of body*/
 #bodywrapper {
 	margin: 0 auto;
-	width: 80%;
-	min-width: 50em;
+	width: 100%;
+	max-width: 65em;
+	min-width: 30em;
 }
+
 /*********************************************/
 /*Navigation bar css*/
 table#navigationbar {
@@ -45,17 +46,20 @@ td.navigationtab a:hover {
 /*********************************************/
 /*Banner css*/
 #banner {
-	height: 500px;
+	height: 40vw;
+	min-height: 12.3em;
 }
 
 ul#carouselwrapper {
-	height: 500px;
+	height: 40vw;
+	min-height: 12.3em;
 	padding: 0;
 	margin: 0;
 }
 
 li.carouselimg {
 	height: inherit;
+	min-height: 12.3em;
 	list-style-type: none;
 	position: relative;
 	z-index: -1;
@@ -64,7 +68,7 @@ li.carouselimg {
 
 li.carouselimg img {
 	width: 100%;
-	height: 500px;
+	height: 100%;
 }
 
 #banner1 {
@@ -72,50 +76,67 @@ li.carouselimg img {
 }
 
 #banner2 {
-	top: -500px;
+	top: -40vw;
 }
 
 #banner3 {
-	top: -1000px;
+	top: -80vw;
 }
 
 .carouselselector {
 	position: relative;
 	z-index: 2;
 	cursor: pointer;
-	left: 74vw;
-	bottom: 20px;
+	right: -76vw;
+	top: -20px;
 }
 
 #previousarrow, #nextarrow {
 	z-index: 2;
 	cursor: pointer;
+	position: absolute;
 }
 
 #previousarrow {
 	left: 2vw;
-	top: 250px;
+	top: 20vw;
 }
 
 #nextarrow {
 	right: 2vw;
-	top: 250px;
+	top: 20vw;
 }
 /*********************************************/
 /*Footer CSS*/
 #footer {
 	padding: 10px 50px;
-	height: 8em;
+	overflow: hidden;
 	background-color: #E0D1ED;
 }
 
 #footer div.footbox {
 	display: inline-block;
 	color: #FFF;
-	font-size: 20px;
 	font-family: "Comic Sans MS", cursive;
 	padding: 10px 10px 0 10px;
+}
+
+div.footbox hr {
+	border: none;
+	height: 1px;
+	margin: 0;
+	background-color: #FFF;
+}
+
+div.footbox h1 {
 	text-align: center;
+	font-size: 18px;
+}
+
+div.footbox p, div.footbox p a, div.footbox p a:visited{
+	font-size: 14px;
+	text-decoration: none;
+	color: #FFF;
 }
 
 #footbox1 {
