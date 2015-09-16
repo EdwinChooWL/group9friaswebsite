@@ -20,19 +20,21 @@
     	<td class="navigationtab" style="min-width: 4em"><a href="index.html">HOME</a></td>
         <td class="navigationtab" style="min-width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
         <td class="navigationtab" style="min-width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
-        <td class="navigationtab" style="min-width: 3em"><a href="#">CAFE</a></td>
-        <td class="navigationtab" style="min-width: 5em"><a href="#">EVENTS</a></td>
+        <td class="navigationtab" style="min-width: 3em"><a href="cafe.html">CAFE</a></td>
+        <td class="navigationtab" style="min-width: 5em"><a href="events.html">EVENTS</a></td>
         <td class="navigationfiller"></td>
 	</tr>
 </table>
 
 
 <div id="bodywrapper">
-	
+<!-- TemplateBeginEditable name="banner" -->
 <div id="header">
-<div><a href="../index.html"><img src="../Images/FriasH250px.png" width="200" height="auto" alt="Frias Logo" title="Frias Clothing"/ class="friaslogo"></a></div>
+<div><a href="#"><img src="../Images/FriasH250px.png" width="200" height="auto" alt="Frias Logo" title="Frias Clothing"/ class="friaslogo"></a></div>
 <div><img src="../Images/Text/aboutus.png" width="308" height="71" alt="" class="titleimage"/></div>
 </div>
+<!-- TemplateEndEditable -->
+
 <!-- TemplateBeginEditable name="flowNavigation" -->
 <div id="flownavigation"><a href="#" title="#">Home</a> > <a href="#" title="#">--- </a>
 </div>
@@ -54,14 +56,13 @@
 <p>Address: 100, Orchard Crescent, 100000 Singapore</p>
 <p>E-mail: Frias@gmail.com</p>
 <p>Phone no.: +65-4444-6677</p>
-<p>Fax no.: xxx-xxx-xxxxx</p>
 </div>
 
 <div class="footbox" id="footbox2">
-<h1>Filler header</h1>
+<h1>Help</h1>
 <hr />
-<p>Filler paragraph</p>
-<p>Filler paragraph 2</p>
+<p><a href="services.html">Services</a></p>
+<p><a href="FAQ.html">FAQ</a></p>
 </div>
 
 <div class="footbox" id="footbox3">

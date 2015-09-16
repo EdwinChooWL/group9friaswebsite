@@ -17,8 +17,8 @@
     	<td class="navigationtab" style="min-width: 4em"><a href="index.html">HOME</a></td>
         <td class="navigationtab" style="min-width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
         <td class="navigationtab" style="min-width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
-        <td class="navigationtab" style="min-width: 3em"><a href="#">CAFE</a></td>
-        <td class="navigationtab" style="min-width: 5em"><a href="#">EVENTS</a></td>
+        <td class="navigationtab" style="min-width: 3em"><a href="cafe.html">CAFE</a></td>
+        <td class="navigationtab" style="min-width: 5em"><a href="events.html">EVENTS</a></td>
         <td class="navigationfiller"></td>
 	</tr>
 </table>
@@ -27,8 +27,7 @@
 <div id="bodywrapper">
 	
 <div id="header">
-<div><a href="../index.html"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a></div>
-<div><img src="../Images/Text/products.png" width="auto" height="80" alt="Products"/></div>
+<a href="#"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="../Images/Text/products.png" width="auto" height="80" alt="Products"/>
 </div>
 
 <!-- TemplateBeginEditable name="flowNavigation" -->
@@ -41,7 +40,7 @@
 <div id="mainproductwrapper">
 <!-- TemplateBeginEditable name="Product Image" -->
 <!-- Insert the product image here with the id "mainproduct" -->
-<div id="mainproduct"><img src="../Images/Jeans Products/14color1.jpg" width="350" height="auto" alt="Jeans Jacket"/></div>
+<div id="mainproduct"><img src="../Images/Jeans Products/14.jpg" width="350" height="auto" alt="Jeans Jacket"/></div>
 <!-- TemplateEndEditable -->
 
 <div id="productdetails">
@@ -73,8 +72,8 @@
 
 <!-- TemplateBeginEditable name="Related Products" -->
 <ul>
-	<a href="#"><li class="relatedimg"><img src="../Images/Jeans Products/14color2.jpg" width="250" height="283" alt="Brown Jeans Jacket" title="Green Jeans Jacket"/></li></a>
-	<a href="#"><li class="relatedimg"><img src="../Images/Jeans Products/14color3.jpg" width="250" height="283" alt="Green Jeans Jacket" title="Brown Jeans Jacket"/></li></a>
+	<a href="#"><li class="relatedimg"><img src="../Images/Jeans Products/14Color1.jpg" width="250" height="283" alt="Brown Jeans Jacket" title="Green Jeans Jacket"/></li></a>
+	<a href="#"><li class="relatedimg"><img src="../Images/Jeans Products/14Color2.jpg" width="250" height="283" alt="Green Jeans Jacket" title="Brown Jeans Jacket"/></li></a>
 </ul>
 <!-- TemplateEndEditable -->
 
@@ -90,15 +89,15 @@
 <p>Address: 100, Orchard Crescent, 100000 Singapore</p>
 <p>E-mail: Frias@gmail.com</p>
 <p>Phone no.: +65-4444-6677</p>
-<p>Fax no.: xxx-xxx-xxxxx</p>
 </div>
 
 <div class="footbox" id="footbox2">
-<h1>Filler header</h1>
+<h1>Help</h1>
 <hr />
-<p>Filler paragraph</p>
-<p>Filler paragraph 2</p>
+<p><a href="services.html">Services</a></p>
+<p><a href="FAQ.html">FAQ</a></p>
 </div>
+
 
 <div class="footbox" id="footbox3">
 <h1>Social Media</h1>

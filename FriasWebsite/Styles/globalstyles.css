@@ -74,14 +74,28 @@ td.navigationtab a:hover {
 	padding: 0 20px;
 	height: 28vw;
 	min-height: 18em;
-	max-height: 23em;
+}
+
+#cafeheader {
+	background-image: url(../Images/cafeBanner.jpg);
+	background-size: 100% 100%;
+	padding: 0 20px;
+	height: 28vw;
+	min-height: 18em;
+}
+
+#eventheader {
+	background-image: url(../Images/eventsBanner.jpg);
+	background-size: 100% 100%;
+	padding: 0 20px;
+	height: 28vw;
+	min-height: 18em;
 }
 
 #header div, #header img {
 	display: block;
 	width: 20vw;
 	min-width: 200px;
-	max-width: 260px;
 	height: auto;
 }
 
@@ -109,6 +123,17 @@ div#body{
 	width:400px;
 }
 
+#grandopening{
+	font-family: 'Pacifico', cursive;
+	font-size: 54px;
+	color: #F36;
+}
+
+#date{
+	font-family: 'Pacifico', cursive;
+	font-size: 36px;
+	color: #FC3;
+}
 /*********************************************/
 /*Footer CSS*/
 #footer {
@@ -120,7 +145,7 @@ div#body{
 
 #footer div.footbox {
 	display: inline-block;
-	color: #FFF;
+	color: #000;
 	font-family: "Comic Sans MS", cursive;
 	padding: 10px 10px 0 10px;
 }
@@ -129,7 +154,7 @@ div.footbox hr {
 	border: none;
 	height: 1px;
 	margin: 0;
-	background-color: #FFF;
+	background-color: #000;
 }
 
 div.footbox h1 {
@@ -140,7 +165,7 @@ div.footbox h1 {
 div.footbox p, div.footbox p a, div.footbox p a:visited{
 	font-size: 14px;
 	text-decoration: none;
-	color: #FFF;
+	color: #000;
 }
 
 #footbox1 {
