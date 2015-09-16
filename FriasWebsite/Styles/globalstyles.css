@@ -74,6 +74,7 @@ td.navigationtab a:hover {
 	padding: 0 20px;
 	height: 28vw;
 	min-height: 18em;
+	max-height: 23em;
 }
 
 #cafeheader {
@@ -96,6 +97,7 @@ td.navigationtab a:hover {
 	display: block;
 	width: 20vw;
 	min-width: 200px;
+	max-width: 260px;
 	height: auto;
 }
 
