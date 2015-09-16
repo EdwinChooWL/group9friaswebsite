@@ -44,7 +44,7 @@
 <div id="mainproductwrapper">
 <!-- InstanceBeginEditable name="Product Image" -->
 <!-- Insert the product image here with the id "mainproduct" -->
-<div id="mainproduct"><img src="Images/Jeans Products/14color1.jpg" width="250" height="300" alt="Jeans Jacket"/></div>
+<div id="mainproduct"><img name="mainproductimage" src="Images/Jeans Products/14color1.jpg" width="250" height="300" alt="Jeans Jacket"/></div>
 <!-- InstanceEndEditable -->
 
 <div id="productdetails">
@@ -62,10 +62,15 @@
 <!-- InstanceBeginEditable name="Clothes Colors" -->
 <!-- Change available colors for product here -->
 <div id="othercolorsbox">AVAILABLE COLORS<br />
-<img class="clothescolor" src="Images/Clothes Colors/Color8.png" width="40" height="40" alt="" onclick="changeColor('1')"/>
-<img class="clothescolor" src="Images/Clothes Colors/Color4.png" width="40" height="40" alt="" onclick="changeColor('2')"/>
-<img class="clothescolor" src="Images/Clothes Colors/Color10.png" width="40" height="40" alt="" onclick="changeColor('3')"/>
+<img class="clothescolor" src="Images/ColorIcon/ColorIcon8.png" width="40" height="40" alt="" onclick="changeColor('1')"/>
+<img class="clothescolor" src="Images/ColorIcon/ColorIcon9.png" width="40" height="40" alt="" onclick="changeColor('2')"/>
+<img class="clothescolor" src="Images/ColorIcon/ColorIcon10.png" width="40" height="40" alt="" onclick="changeColor('3')"/>
 </div>
+<script>
+function changeColor(color) {
+	document.mainproductimage.src ="Images/Jeans Products/14color"+color+".jpg"
+}
+</script>
 <!-- InstanceEndEditable -->
 </div>
 
