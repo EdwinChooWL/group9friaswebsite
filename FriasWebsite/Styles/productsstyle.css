@@ -99,8 +99,12 @@ ul#relatedproductslist {
 
 li.relatedimg {
 	margin: 0 5px;
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
 }
 
+li.relatedimg:hover {
+	transition: box-shadow 0.3s;
+	box-shadow: 0 0 5px 3px #888888;
+}
 /*********************************************************/

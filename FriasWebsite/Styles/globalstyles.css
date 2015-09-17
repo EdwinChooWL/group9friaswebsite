@@ -120,9 +120,19 @@ div#body{
 	color: #010072;
 }
 
+#body a img:hover{
+	transition: box-shadow 0.3s;
+	box-shadow: 0 0 5px 3px #888888;
+}
+
 #category img{
-	padding:20px;
-	width:400px;
+	margin: 20px;
+	width: 400px;
+}
+
+#category img:hover {
+	transition: box-shadow 0.3s;
+	box-shadow: 0 0 8px 5px #888888;	
 }
 
 #grandopening{
