@@ -69,6 +69,17 @@ td.navigationtab a:hover {
 /*Header CSS*/
 #header {
 	background-image: url(../Images/banner.png);
+}
+
+#cafeheader {
+	background-image: url(../Images/cafeBanner.jpg);
+}
+
+#eventheader {
+	background-image: url(../Images/eventsBanner.jpg);
+}
+
+#header, #cafeheader, #eventheader {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	padding: 0 20px;
@@ -77,28 +88,19 @@ td.navigationtab a:hover {
 	max-height: 23em;
 }
 
-#cafeheader {
-	background-image: url(../Images/cafeBanner.jpg);
-	background-size: 100% 100%;
-	padding: 0 20px;
-	height: 28vw;
-	min-height: 18em;
-}
-
-#eventheader {
-	background-image: url(../Images/eventsBanner.jpg);
-	background-size: 100% 100%;
-	padding: 0 20px;
-	height: 28vw;
-	min-height: 18em;
-}
-
-#header div, #header img {
+div#headerlogo img{
 	display: block;
 	width: 20vw;
 	min-width: 200px;
 	max-width: 260px;
 	height: auto;
+}
+
+#headertitle img{
+	margin: 0 0 0 10px;
+	display: inline-block;
+	height: 10vh;
+	min-height: 50px;
 }
 
 /*********************************************/
@@ -120,7 +122,14 @@ div#body{
 	color: #010072;
 }
 
-#body a img:hover{
+.productimage img{
+	margin: 5px;
+	width: 250px;
+	height: 283px;
+	display: inline-block;
+}
+
+.productimage img:hover{
 	transition: box-shadow 0.3s;
 	box-shadow: 0 0 5px 3px #888888;
 }
@@ -150,12 +159,14 @@ div#body{
 /*Footer CSS*/
 #footer {
 	height: 15em;
-	padding: 10px 50px;
+	padding: 10px 30px;
 	overflow: hidden;
 	background-color: #E0D1ED;
 }
 
 #footer div.footbox {
+	border: 1px solid red;
+	width: 13em;
 	display: inline-block;
 	color: #000;
 	font-family: "Comic Sans MS", cursive;
