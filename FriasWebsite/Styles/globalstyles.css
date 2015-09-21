@@ -209,4 +209,10 @@ div.footbox p, div.footbox p a, div.footbox p a:visited{
 	width: 35px;
 }
 
-/*********************************************/
+/*********************************************/#event_table {
+	color: #FFF;
+	background-color: #000;
+}
+.event_table {
+	color: #FFF;
+}
