@@ -12,6 +12,8 @@ body {
 /*********************************************/
 /*Size of body*/
 #bodywrapper {
+	z-index: 4;
+	box-shadow: -20px 0 70px -40px, 20px 0 70px -40px;
 	margin: 0 auto;
 	width: 80%;
 	min-width: 50em;

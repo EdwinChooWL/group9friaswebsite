@@ -14,20 +14,24 @@
 <body>
 <table id="navigationbar" cellspacing="0">
 	<tr>
-    	<td class="navigationtab" style="min-width: 4em"><a href="index.html">HOME</a></td>
-        <td class="navigationtab" style="min-width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
-        <td class="navigationtab" style="min-width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
-        <td class="navigationtab" style="min-width: 3em"><a href="cafe.html">CAFE</a></td>
-        <td class="navigationtab" style="min-width: 5em"><a href="events.html">EVENTS</a></td>
+    	<td class="navigationtab" style="width: 4em"><a href="index.html">HOME</a></td>
+        <td class="navigationtab" style="width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
+        <td class="navigationtab" style="width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
+        <td class="navigationtab" style="width: 3em"><a href="cafe.html">CAFE</a></td>
+        <td class="navigationtab" style="width: 5em"><a href="events.html">EVENTS</a></td>
         <td class="navigationfiller"></td>
-	</tr>
+        <td class="searchbox">
+		   	<form id="searchbox" method="get" action="http://www.google.com">
+        		<input type="text" class="searchtextinput" name="q" size="15" maxlength="120" placeholder="Search Frias..."><input type="submit" value="SEARCH" class="searchbutton">
+			</form>
+	</tr>	
 </table>
-
 
 <div id="bodywrapper">
 	
 <div id="header">
-<a href="#"><img src="Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a><img src="Images/Text/products.png" width="auto" height="80" alt="Products"/>
+<div id="headerlogo"><a href="#"><img src="Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a></div>
+<div id="headertitle"><img src="Images/Text/products.png" width="auto" height="80" alt="Products"/></div>
 </div>
 
 <!-- InstanceBeginEditable name="flowNavigation" -->
@@ -111,7 +115,7 @@ function changeColor(color) {
 <div class="footbox" id="footbox1">
 <h1>Contact Us</h1>
 <hr />
-<p>Address: 100, Orchard Crescent, 100000 Singapore</p>
+<p>Address: <a href="our-store.html">100, Orchard Crescent, 100000 Singapore</a></p>
 <p>E-mail: Frias@gmail.com</p>
 <p>Phone no.: +65-4444-6677</p>
 </div>
