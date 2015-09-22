@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="shoppingcart.css" rel="stylesheet" type="text/css" />
+<script src="shoppingcart.js" language="javascript"></script>
+</head>
+
+<body>
+$<span id="productprice">14.50</span>
+<form method="get">
+	<select id="productsize" name="productsize" required>
+    	<option class="nullvalue" selected disabled hidden value="null">SIZE</option>
+        <option id="xsmall" value="xsmall">XS</option>
+        <option id="small" value="small">S</option>
+        <option id="medium" value="medium">M</option>
+        <option id="large" value="large">L</option>
+        <option id="xlarge" value="xlarge">XL</option>
+	</select>
+	<select id="productquantity" name="productquantity" required onChange="totalprice()">
+    	<option class="nullvalue" selected disabled hidden value="null">QTY</option>
+        <option id="quantity1" value="1">1</option>
+        <option id="quantity2" value="2">2</option>
+        <option id="quantity3" value="3">3</option>
+        <option id="quantity4" value="4">4</option>
+        <option id="quantity5" value="5">5</option>
+        <option id="quantity6" value="6">6</option>
+        <option id="quantity7" value="7">7</option>
+        <option id="quantity8" value="8">8</option>
+        <option id="quantity9" value="9">9</option>
+        <option id="quantity10" value="10">10</option>
+	</select>
+
+</form>
+
+<div id="totalprice">Total Price:</div>
+<div onClick="addToCart()" style="cursor: pointer">addtocart</div>
+<div onClick="listCookies()" style="cursor: pointer">CLICK ME!</div>
+
+</body>
+</html>

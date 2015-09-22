@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+select#productsize, select#productquantity {
+	border-radius: 5px;
+	border: none;
+	background-color: #F0EFEF;
+	height: 40px;
+	width: 7em;
+	padding-left: 5px;
+	display: inline-block;
+	text-align: center;
+}
