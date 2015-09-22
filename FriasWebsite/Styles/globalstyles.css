@@ -12,7 +12,7 @@ body {
 /*********************************************/
 /*Size of body*/
 #bodywrapper {
-	margin: 0 auto;
+	margin: 34px auto 0 auto;
 	width: 80%;
 	min-width: 50em;
 	max-width: 90em;
@@ -21,6 +21,9 @@ body {
 /*********************************************/
 /*Navigation bar css*/
 table#navigationbar {
+	position: fixed;
+	top: 0;
+	z-index: 5;
 	background-color: #FFEEA7;
 	color: #FF9D21;
 	width: 100%;

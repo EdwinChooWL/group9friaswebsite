@@ -9,6 +9,7 @@
 <!-- TemplateEndEditable -->
 <link href="../Styles/productsstyle.css" rel="stylesheet" type="text/css" />
 <link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
+<script src="../js/shoppingcart.js" language="javascript"></script>
 </head>
 
 <body>
@@ -52,12 +53,11 @@
 <!-- Enter the product name here -->
 <div id="productname">PRODUCT NAME</div>
 <!-- TemplateEndEditable -->
-
+<a href="#"><img class="cartimg" src="../Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Add to cart"/></a>
 <!-- TemplateBeginEditable name="Product Description" -->
 <!-- Enter the product description here -->
 <div id="productdescription">enter description for product here<br/>enter description for product here<br/>enter description for product here<br/>enter description for product here<br/>enter description for product here<br/></div>
 <!-- TemplateEndEditable -->
-<a href="#"><img class="cartimg" src="../Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Add to cart"/></a>
 
 <!-- TemplateBeginEditable name="Clothes Colors" -->
 <!-- Change available colors for product here -->
@@ -67,6 +67,32 @@
 <img class="clothescolor" src="../Images/Clothes Colors/Color10.png" width="40" height="40" alt="" onclick="changeColor('3')"/>
 </div>
 <!-- TemplateEndEditable -->
+<form id="productadd" method="get">
+	<select id="productsize" name="productsize" required>
+    	<option class="nullvalue" selected disabled hidden value="null">SIZE</option>
+        <option id="xsmall" value="xsmall">XS</option>
+        <option id="small" value="small">S</option>
+        <option id="medium" value="medium">M</option>
+        <option id="large" value="large">L</option>
+        <option id="xlarge" value="xlarge">XL</option>
+	</select>
+	<select id="productquantity" name="productquantity" required onChange="totalprice()">
+    	<option class="nullvalue" selected disabled hidden value="null">QTY</option>
+        <option id="quantity1" value="1">1</option>
+        <option id="quantity2" value="2">2</option>
+        <option id="quantity3" value="3">3</option>
+        <option id="quantity4" value="4">4</option>
+        <option id="quantity5" value="5">5</option>
+        <option id="quantity6" value="6">6</option>
+        <option id="quantity7" value="7">7</option>
+        <option id="quantity8" value="8">8</option>
+        <option id="quantity9" value="9">9</option>
+        <option id="quantity10" value="10">10</option>
+	</select>
+	
+    <div id="totalprice">Total Price: ---</div>
+</form>
+
 </div>
 
 </div>

@@ -35,22 +35,20 @@
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 30px;
 	color: #8DE10F;
-	width: 10em;
 	text-align: left;
 }
 
 #productdescription {
+	position: relative;
 	font-family: 'Raleway', sans-serif;
-	display: inline-block;
 	text-align: left;
 	width: 17em;
 	padding-left: 20px;
-	float: left;
 	color: #069;
 }
 
-#productdescription ul {
-	padding: 0;
+#productdescription ul {	
+	padding: 5px 0;
 }
 
 #productdescription li {
@@ -58,24 +56,53 @@
 }
 
 .cartimg {
-	display: inline-block;
-	vertical-align: top;
+	position: relative;
+	left: -100px;
+	float: right;
 }
 
 #othercolorsbox {
+	position: relative;
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 25px;
 	color: #8DE10F;
-	padding-left: 20px;
-	margin-top: 20px;
-	display: inline-block;
-	float: left;
+	padding: 5px 0 5px 20px;
 	text-align: left;
 }
 
 .clothescolor {
 	cursor: pointer;
 	margin: 5px;
+}
+
+.clothescolor:hover {
+	transition: box-shadow 0.3s;
+	box-shadow: 0 0 3px 2px #888888;
+}
+
+#productadd {
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+select#productsize, select#productquantity {
+	border-radius: 5px;
+	border: none;
+	background-color: #F0EFEF;
+	height: 40px;
+	margin: 0 10px 0 0;
+	width: 7em;
+	padding-left: 5px;
+	text-align: center;
+}
+
+#totalprice {
+	margin-top: 10px;
+	text-align: left;
+	color: #069;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 /*Related products container*/

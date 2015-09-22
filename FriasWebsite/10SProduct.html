@@ -9,6 +9,7 @@
 <!-- InstanceEndEditable -->
 <link href="Styles/productsstyle.css" rel="stylesheet" type="text/css" />
 <link href="Styles/globalstyles.css" rel="stylesheet" type="text/css" />
+<script src="js/shoppingcart.js" language="javascript"></script>
 </head>
 
 <body>
@@ -53,7 +54,7 @@
 <!-- Enter the product name here -->
 <div id="productname">FRIAS STRAIGHT FIT JEANS</div>
 <!-- InstanceEndEditable -->
-
+<a href="#"><img class="cartimg" src="Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Add to cart"/></a>
 <!-- InstanceBeginEditable name="Product Description" -->
 <!-- Enter the product description here -->
 <div id="productdescription">Materials, Care &amp; Information:<br/>
@@ -69,15 +70,40 @@
     <li>Pull on with button and fly fastening</li>
     <li>Full length</li>
   </ul>
-  Cost: SGD 69.90
+  Cost: SGD <span id="productprice">69.90</span>
   <br/></div>
 <!-- InstanceEndEditable -->
-<a href="#"><img class="cartimg" src="Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Add to cart"/></a>
 
 <!-- InstanceBeginEditable name="Clothes Colors" -->
 <!-- Change available colors for product here -->
 
 <!-- InstanceEndEditable -->
+<form id="productadd" method="get">
+	<select id="productsize" name="productsize" required>
+    	<option class="nullvalue" selected disabled hidden value="null">SIZE</option>
+        <option id="xsmall" value="xsmall">XS</option>
+        <option id="small" value="small">S</option>
+        <option id="medium" value="medium">M</option>
+        <option id="large" value="large">L</option>
+        <option id="xlarge" value="xlarge">XL</option>
+	</select>
+	<select id="productquantity" name="productquantity" required onChange="totalprice()">
+    	<option class="nullvalue" selected disabled hidden value="null">QTY</option>
+        <option id="quantity1" value="1">1</option>
+        <option id="quantity2" value="2">2</option>
+        <option id="quantity3" value="3">3</option>
+        <option id="quantity4" value="4">4</option>
+        <option id="quantity5" value="5">5</option>
+        <option id="quantity6" value="6">6</option>
+        <option id="quantity7" value="7">7</option>
+        <option id="quantity8" value="8">8</option>
+        <option id="quantity9" value="9">9</option>
+        <option id="quantity10" value="10">10</option>
+	</select>
+	
+    <div id="totalprice">Total Price: ---</div>
+</form>
+
 </div>
 
 </div>
