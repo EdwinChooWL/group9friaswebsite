@@ -115,15 +115,15 @@ td.searchbox {
 /*********************************************/
 /*Header CSS*/
 #header {
-	background-image: url(../Images/banner.png);
+	background-image: url(../Images/banners/banner.png);
 }
 
 #cafeheader {
-	background-image: url(../Images/cafeBanner.jpg);
+	background-image: url(../Images/banners/cafeBanner.jpg);
 }
 
 #eventheader {
-	background-image: url(../Images/eventsBanner.jpg);
+	background-image: url(../Images/banners/eventsBanner.jpg);
 }
 
 #header, #cafeheader, #eventheader {

@@ -32,7 +32,7 @@
 	
 <div id="header">
 <div id="headerlogo"><a href="#"><img src="../Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a></div>
-<div id="headertitle"><img src="../Images/Text/products.png" width="auto" height="80" alt="Products"/></div>
+<div id="headertitle"><img src="../Images/text/products.png" width="auto" height="80" alt="Products"/></div>
 </div>
 
 <!-- TemplateBeginEditable name="flowNavigation" -->
@@ -98,7 +98,7 @@
 </div>
 
 <div id="relatedproducts">
-<img id="relatedproductstitle" src="../Images/Text/relatedProd.png" width="390" height="97" alt="Related Products" />
+<img id="relatedproductstitle" src="../Images/text/relatedProd.png" width="390" height="97" alt="Related Products" />
 
 <!-- TemplateBeginEditable name="Related Products" -->
 <ul>
