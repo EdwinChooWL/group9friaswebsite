@@ -13,36 +13,86 @@ body {
 /*Size of body*/
 #bodywrapper {
 	margin: 0 auto;
-	width: 100%;
-	max-width: 65em;
-	min-width: 30em;
+	width: 80%;
+	min-width: 50em;
+	max-width: 90em;
 }
+
 /*********************************************/
 /*Navigation bar css*/
 table#navigationbar {
 	background-color: #FFEEA7;
 	color: #FF9D21;
-	height: 35px;
 	width: 100%;
+	min-width: 50em;
 }
 
 td.navigationtab {
+	font-family: Arial;
+	font-size: 18px;
 	width: 10%;
 	text-align: center;
 }
 
 td.navigationtab a, td.navigationtab a:visited {
+	padding: 8px;
+	margin: -2px;
 	display: block;
-	height: 100%;
-	padding-top: 7px;
 	text-decoration: none;
 	color: #FF9D21;
 }
 
 td.navigationtab a:hover {
-	background-color: #FF9D21;
-	color: #FFEEA7;
+	color: #FB3600;
+	border-bottom: #FB3600 3px solid;
+	transition: color: 1s, border-bottom 1s;
 }
+
+td.navigationtab a:active {
+	color: #FB3600;
+	border-bottom: #FB3600 3px solid;
+}
+
+td.searchbox {
+	float: right;
+	display: inline-block;
+}
+
+.searchtextinput {
+	padding: 10px 5px;
+	margin: 2px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	border: none;
+	background: rgba(255,255,255,.30)
+}
+
+.searchtextinput:focus {
+	outline: none;
+	background-color: #FFFFFF;
+	transition: background-color 0.3s;
+}
+
+.searchbutton {
+	margin: 2px 0;
+	padding: 10px 5px;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: none;
+	background: #FFB872;
+}
+
+.searchbutton:hover {
+	text-decoration: none;
+	background: #FDAA4C;
+	transition: background 0.5s;
+}
+
 /*********************************************/
 /*Banner css*/
 #banner {

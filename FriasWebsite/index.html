@@ -10,19 +10,22 @@
 <!-- Font style sheets -->
 <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" type="text/css" />
 
-<link href="Styles/globalstyles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <table id="navigationbar" cellspacing="0">
 	<tr>
-    	<td class="navigationtab" style="min-width: 4em"><a href="index.html">HOME</a></td>
-        <td class="navigationtab" style="min-width: 6em"><a href="productCategory.html">PRODUCTS</a></td>
-        <td class="navigationtab" style="min-width: 6em"><a href="aboutUs.html">ABOUT US</a></td>
-        <td class="navigationtab" style="min-width: 3em"><a href="cafe.html">CAFE</a></td>
-        <td class="navigationtab" style="min-width: 5em"><a href="events.html">EVENTS</a></td>
+    	<td class="navigationtab" style="width: 5em"><a href="index.html">HOME</a></td>
+        <td class="navigationtab" style="width: 7em"><a href="productCategory.html">PRODUCTS</a></td>
+        <td class="navigationtab" style="width: 7em"><a href="aboutUs.html">ABOUT US</a></td>
+        <td class="navigationtab" style="width: 4em"><a href="cafe.html">CAFE</a></td>
+        <td class="navigationtab" style="width: 6em"><a href="events.html">EVENTS</a></td>
         <td class="navigationfiller"></td>
-	</tr>
+        <td class="searchbox">
+		   	<form id="searchbox" method="get" action="http://www.google.com">
+        		<input type="text" class="searchtextinput" name="q" size="17" maxlength="120" placeholder="Search Frias..."><input type="submit" value="SEARCH" class="searchbutton">
+			</form>
+	</tr>	
 </table>
 
 
@@ -38,10 +41,6 @@
 <li id="banner2" class="carouselimg"><a href="productCategory.html"><img src="Images/PS NUM/sj.jpg" width="313" height="200" alt=""/></a></li>
 <li id="banner3" class="carouselimg"><a href="cafe.html"><img src="Images/cafe.jpg" width="1280" height="720" alt=""/></a></li>
 </ul>
-
-<span class="carouselselector" onclick="changeBanner(1)"><img src="Images/Selector.png" width="15" height="15" /></span>
-<span class="carouselselector" onclick="changeBanner(2)"><img src="Images/Selector.png" width="15" height="15" /></span>
-<span class="carouselselector" onclick="changeBanner(3)"><img src="Images/Selector.png" width="15" height="15" /></span>
 
 </div>
 
