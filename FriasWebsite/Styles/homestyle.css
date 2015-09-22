@@ -12,7 +12,7 @@ body {
 /*********************************************/
 /*Size of body*/
 #bodywrapper {
-	margin: 0 auto;
+	margin: 34px auto 0 auto;
 	width: 80%;
 	min-width: 50em;
 	max-width: 90em;
@@ -21,6 +21,9 @@ body {
 /*********************************************/
 /*Navigation bar css*/
 table#navigationbar {
+	position: fixed;
+	top: 0;
+	z-index: 5;
 	background-color: #FFEEA7;
 	color: #FF9D21;
 	width: 100%;
@@ -29,7 +32,7 @@ table#navigationbar {
 
 td.navigationtab {
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 16px;
 	width: 10%;
 	text-align: center;
 }
@@ -59,7 +62,7 @@ td.searchbox {
 }
 
 .searchtextinput {
-	padding: 10px 5px;
+	padding: 6px 5px;
 	margin: 2px 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -75,10 +78,10 @@ td.searchbox {
 
 .searchbutton {
 	margin: 2px 0;
-	padding: 10px 5px;
+	padding: 6px 5px;
 	outline: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
@@ -159,15 +162,16 @@ li.carouselimg img {
 /*********************************************/
 /*Footer CSS*/
 #footer {
-	padding: 10px 50px;
+	height: 13em;
+	padding: 10px 30px;
 	overflow: hidden;
 	background-color: #E0D1ED;
 }
 
 #footer div.footbox {
+	width: 13em;
 	display: inline-block;
 	color: #000;
-	font-size: 20px;
 	font-family: "Comic Sans MS", cursive;
 	padding: 10px 10px 0 10px;
 }
@@ -200,9 +204,9 @@ div.footbox p, div.footbox p a, div.footbox p a:visited{
 }
 
 .socialicon {
-	margin-top: 10px;
+	display: inline-block;
 	border-radius: 7px;
-	height: auto;
+	margin: 0;
 	width: 35px;
 }
 /*********************************************/

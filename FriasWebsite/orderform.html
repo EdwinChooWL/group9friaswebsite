@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Frias - Order Form</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
-<link href="Styles/productsstyle.css" rel="stylesheet" type="text/css" />
+<link href="Styles/orderformstyle.css" rel="stylesheet" type="text/css" />
 <!-- InstanceEndEditable -->
 <link href="Styles/globalstyles.css" rel="stylesheet" type="text/css" />
 
@@ -35,26 +35,56 @@
 <div id="bodywrapper">
 <!-- InstanceBeginEditable name="banner" -->
 <div id="header">
-<div><a href="#"><img src="Images/FriasH250px.png" width="200" height="auto" alt="Frias Logo" title="Frias Clothing"/ class="friaslogo"></a></div>
-<div><img src="Images/text/aboutus.png" width="308" height="71" alt="" class="titleimage"/></div>
+<div id="headerlogo"><a href="#"><img src="Images/FriasH250px.png" width="200" height="auto" alt="Frias Logo" title="Frias Clothing"/ class="friaslogo" /></a></div>
 </div>
 <!-- InstanceEndEditable -->
 
 <!-- InstanceBeginEditable name="flowNavigation" -->
-<div id="flownavigation"><a href="#" title="#">Home</a> > <a href="#" title="#">--- </a>
+<div id="flownavigation">Order Form
 </div>
 <!-- InstanceEndEditable -->
 <div id="body">
 <!-- InstanceBeginEditable name="Body Content" -->
-<div id="bodycontent">
-<p>Our products</p>
-<div id="productlist">
-<a href="#"><div class="productimage">ITEM 1</div></a>
-<a href="#"><div class="productimage">ITEM 2</div></a>
-<a href="#"><div class="productimage">ITEM 3</div></a>
-<a href="#"><div class="productimage">ITEM 4</div></a>
-</div>
-</div>
+<form id="orderform" method="get">
+	<legend>Please fill up all of the fields.</legend>
+	<p>
+    
+       	<label for="personname">First Name</label><br/>
+        <input required type="text" name="personname" id="personname" placeholder="Please type your first name here"/><br/>
+        
+        <label for="personname">Last Name</label><br/>
+        <input required type="text" name="personname" id="personname" placeholder="Please type your last name here"/><br/>
+        
+        <label for="age">Age</label><br/>
+        <input required type="text" name="age" id="age" placeholder="Please type your age here"/><br/>
+        
+        <label for="phonenumber">Phone Number</label><br/>
+        <input required type="text" name="phonenumber" id="phonenumber" placeholder="Please type your phone number here"/><br/>
+        
+		<label for="email">Email</label><br/>
+        <input required type="text" name="email" id="email" placeholder="Please type your email here"/><br/>
+        
+        <div>PRODUCT DETAILS<br/>
+            <label for="productname">Name</label><br/>
+            <input required type="text" name="productname" id="productname" placeholder="Please type product name here"/><br/>
+    
+            <label for="product1color">Color (If applicable)</label><br/>
+            <select>
+                <option id="nullvalue" selected disabled hidden value="null">Select a color</option>
+                <option value="1">Color 1</option>
+                <option value="2">Color 2</option>
+                <option value="3">Color 3</option>
+            </select><br/>
+    
+            <label for="quantity">Quantity</label><br/>
+            <input required type="text" name="productquantity" id="productquantity" placeholder="Please type quantity here"/><br/>
+		</div>
+
+
+        <br/>
+        <input type="submit" value="SUBMIT ORDER DETAILS" id="submitbox"/>
+	</p>
+</form>
 <!-- InstanceEndEditable -->
 </div>
 

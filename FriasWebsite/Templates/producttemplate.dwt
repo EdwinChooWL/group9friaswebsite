@@ -53,7 +53,7 @@
 <!-- Enter the product name here -->
 <div id="productname">PRODUCT NAME</div>
 <!-- TemplateEndEditable -->
-<a href="#"><img class="cartimg" src="../Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Add to cart"/></a>
+<a href="../orderform.html"><img class="cartimg" src="../Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Go to order form"/></a>
 <!-- TemplateBeginEditable name="Product Description" -->
 <!-- Enter the product description here -->
 <div id="productdescription">enter description for product here<br/>enter description for product here<br/>enter description for product here<br/>enter description for product here<br/>enter description for product here<br/></div>
@@ -68,16 +68,16 @@
 </div>
 <!-- TemplateEndEditable -->
 <form id="productadd" method="get">
-	<select id="productsize" name="productsize" required>
-    	<option class="nullvalue" selected disabled hidden value="null">SIZE</option>
+	<select id="productsize" name="productsize" required style="width: 11em">
+    	<option class="nullvalue" selected disabled hidden value="null">SIZE AVALIABLE</option>
         <option id="xsmall" value="xsmall">XS</option>
         <option id="small" value="small">S</option>
         <option id="medium" value="medium">M</option>
         <option id="large" value="large">L</option>
         <option id="xlarge" value="xlarge">XL</option>
 	</select>
-	<select id="productquantity" name="productquantity" required onChange="totalprice()">
-    	<option class="nullvalue" selected disabled hidden value="null">QTY</option>
+	<select id="productquantity" name="productquantity" required onChange="totalprice()" style="width: 10em">
+    	<option class="nullvalue" selected disabled hidden value="null">QTY AVALIABLE</option>
         <option id="quantity1" value="1">1</option>
         <option id="quantity2" value="2">2</option>
         <option id="quantity3" value="3">3</option>
@@ -131,7 +131,7 @@
 
 <div class="footbox" id="footbox3">
 <h1>Social Media</h1>
-<a href="https://www.facebook.com/FRIAS-882353051813531/timeline/"><img class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
+<a href="https://www.facebook.com/FRIAS-882353051813531/timeline/"><img style="margin-left:45px" class="socialicon" src="../Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
 <a href="http://www.instagram.com"><img class="socialicon" src="../Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Instagram"/></a>
 <a href="http://www.twitter.com"><img class="socialicon" src="../Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Twitter"/></a>
 </div>

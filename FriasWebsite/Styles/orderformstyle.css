@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#orderform {
+	margin: 1% 15%;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	color: #010072;
+}
+
+#orderform input {
+	width: 98%;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+}
+
+#orderform select {
+	padding: 5px;
+	margin: 5px 0 15px 0;
+}
+
+#orderform input#submitbox {
+	width: 20em;
+}

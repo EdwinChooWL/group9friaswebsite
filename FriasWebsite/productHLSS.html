@@ -32,7 +32,7 @@
 	
 <div id="header">
 <div id="headerlogo"><a href="#"><img src="Images/FriasH250px.png" width="150" height="150" alt="Frias Logo" title="Frias Clothing"/></a></div>
-<div id="headertitle"><img src="Images/Text/products.png" width="auto" height="80" alt="Products"/></div>
+<div id="headertitle"><img src="Images/text/products.png" width="auto" height="80" alt="Products"/></div>
 </div>
 
 <!-- InstanceBeginEditable name="flowNavigation" -->
@@ -55,7 +55,7 @@
 <!-- Enter the product name here -->
 <div id="productname">HIP HOP LONG SLEEVE SHIRT</div>
 <!-- InstanceEndEditable -->
-<a href="#"><img class="cartimg" src="Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Add to cart"/></a>
+<a href="orderform.html"><img class="cartimg" src="Images/flex-e-shopping-cart-logo-large-canvas.png" width="60" height="60" alt="Shopping Cart" title="Go to order form"/></a>
 <!-- InstanceBeginEditable name="Product Description" -->
 <!-- Enter the product description here -->
 <div id="productdescription">
@@ -80,16 +80,16 @@ Cost: SGD <span id="productprice">39.90</span>
 <!-- Change available colors for product here -->
 <!-- InstanceEndEditable -->
 <form id="productadd" method="get">
-	<select id="productsize" name="productsize" required>
-    	<option class="nullvalue" selected disabled hidden value="null">SIZE</option>
+	<select id="productsize" name="productsize" required style="width: 11em">
+    	<option class="nullvalue" selected disabled hidden value="null">SIZE AVALIABLE</option>
         <option id="xsmall" value="xsmall">XS</option>
         <option id="small" value="small">S</option>
         <option id="medium" value="medium">M</option>
         <option id="large" value="large">L</option>
         <option id="xlarge" value="xlarge">XL</option>
 	</select>
-	<select id="productquantity" name="productquantity" required onChange="totalprice()">
-    	<option class="nullvalue" selected disabled hidden value="null">QTY</option>
+	<select id="productquantity" name="productquantity" required onChange="totalprice()" style="width: 10em">
+    	<option class="nullvalue" selected disabled hidden value="null">QTY AVALIABLE</option>
         <option id="quantity1" value="1">1</option>
         <option id="quantity2" value="2">2</option>
         <option id="quantity3" value="3">3</option>
@@ -110,7 +110,7 @@ Cost: SGD <span id="productprice">39.90</span>
 </div>
 
 <div id="relatedproducts">
-<img id="relatedproductstitle" src="Images/Text/relatedProd.png" width="390" height="97" alt="Related Products" />
+<img id="relatedproductstitle" src="Images/text/relatedProd.png" width="390" height="97" alt="Related Products" />
 
 <!-- InstanceBeginEditable name="Related Products" -->
 <ul>
@@ -147,7 +147,7 @@ Cost: SGD <span id="productprice">39.90</span>
 
 <div class="footbox" id="footbox3">
 <h1>Social Media</h1>
-<a href="https://www.facebook.com/FRIAS-882353051813531/timeline/"><img class="socialicon" src="Images/Social%20Media%20Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
+<a href="https://www.facebook.com/FRIAS-882353051813531/timeline/"><img style="margin-left:45px" class="socialicon" src="Images/Social%20Media%20Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
 <a href="http://www.instagram.com"><img class="socialicon" src="Images/Social%20Media%20Icons/instagram.gif" alt="Instagram Icon" title="Instagram"/></a>
 <a href="http://www.twitter.com"><img class="socialicon" src="Images/Social%20Media%20Icons/twitter.gif" alt="Twitter Icon" title="Twitter"/></a>
 </div>
