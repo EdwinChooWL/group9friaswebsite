@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/friastemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>FRIAS - Our Store's Location</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<style>
+#map {
+	margin: 20px auto 0 auto;
+	width: 500px;
+	height: 400px;
+  }
+</style>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+	var myLatLng = {lat: 1.300619, lng: 103.842223};
+	
+	var map = new google.maps.Map(document.getElementById('map'), {
+		center: myLatLng,
+		zoom: 18,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	});
+	
+	var marker = new google.maps.Marker({
+	    position: myLatLng,
+    	map: map,
+	    title: 'Frias Clothing'
+  	});
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!-- InstanceEndEditable -->
+<link href="Styles/globalstyles.css" rel="stylesheet" type="text/css" />
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table id="navigationbar" cellspacing="0">
+	<tr>
+    	<td class="navigationtab" style="width: 5em"><a href="index.html">HOME</a></td>
+        <td class="navigationtab" style="width: 7em"><a href="productCategory.html">PRODUCTS</a></td>
+        <td class="navigationtab" style="width: 7em"><a href="aboutUs.html">ABOUT US</a></td>
+        <td class="navigationtab" style="width: 4em"><a href="cafe.html">CAFE</a></td>
+        <td class="navigationtab" style="width: 6em"><a href="events.html">EVENTS</a></td>
+        <td class="navigationfiller"></td>
+        <td class="searchbox">
+		   	<form id="searchbox" method="get" action="http://www.google.com">
+        		<input type="text" class="searchtextinput" name="q" size="17" maxlength="120" placeholder="Search Frias..."><input type="submit" value="SEARCH" class="searchbutton">
+			</form>
+	</tr>	
+</table>
+
+
+<div id="bodywrapper">
+<!-- InstanceBeginEditable name="banner" -->
+<div id="header">
+<div id="headerlogo"><a href="#"><img src="Images/FriasH250px.png" width="200" height="auto" alt="Frias Logo" title="Frias Clothing"/ class="friaslogo" /></a></div>
+</div>
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="flowNavigation" -->
+<div id="flownavigation">Our Store
+</div>
+<!-- InstanceEndEditable -->
+<div id="body">
+<!-- InstanceBeginEditable name="Body Content" -->
+<h1>OUR STORE</h1>
+<p>Our store is located at 100, Orchard Crescent, 100000 Singapore.</p>
+<div id="map"></div>
+<!-- InstanceEndEditable -->
+</div>
+
+<div id="footer">
+
+<div class="footbox" id="footbox1">
+<h1>Contact Us</h1>
+<hr />
+<p>Address: <a href="our-store.html">100, Orchard Crescent, 100000 Singapore</a></p>
+<p>E-mail: Frias@gmail.com</p>
+<p>Phone no.: +65-4444-6677</p>
+</div>
+
+<div class="footbox" id="footbox2">
+<h1>Help</h1>
+<hr />
+<p><a href="DeliveryService.html">Services</a></p>
+<p><a href="FAQ.html">FAQ</a></p>
+<p><a href="feedback.html">Feed back</a></p>
+</div>
+
+<div class="footbox" id="footbox3">
+<h1>Social Media</h1>
+<a href="https://www.facebook.com/FRIAS-882353051813531/timeline/"><img style="margin-left:45px" class="socialicon" src="Images/Social Media Icons/facebook.gif" alt="Facebook Icon" title="Facebook"/></a>
+<a href="http://www.instagram.com"><img class="socialicon" src="Images/Social Media Icons/instagram.gif" alt="Instagram Icon" title="Instagram"/></a>
+<a href="http://www.twitter.com"><img class="socialicon" src="Images/Social Media Icons/twitter.gif" alt="Twitter Icon" title="Twitter"/></a>
+</div>
+
+</div>
+ 
+</div> 
+</body>
+<!-- InstanceEnd --></html>
